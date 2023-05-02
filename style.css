@@ -1,0 +1,165 @@
+/* General Page Styling */
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #DBC1E1;
+  margin: 0 10%;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  margin-left: 20px;
+  color: #FCF0F2;
+}
+
+.header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px #E9F7F9 solid;
+}
+
+a {
+  background-color: #1C422B;
+  border: 3px #E9F7F9 solid;
+  color: #FCF0F2;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 6px;
+  margin: 5px;
+}
+
+.heading {
+  margin-left: 20px;
+  border-left: 4px #FCF0F2 solid;
+}
+
+.heading h2 {
+  margin-left: 5px;
+  color: #FCF0F2;
+}
+
+
+
+/* Color Box Styling */
+
+.section_container {
+  background-color: #1C422B;
+  border: 2px #E9F7F9 solid;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.color_container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.color_box {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 20%;
+  margin-top: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+.thistle {
+  background-color: #DBC1E1;
+  border: 2px white solid;
+}
+
+.lavender {
+  background-color: #FCF0F2;
+  border: 2px white solid;
+}
+
+.britgreen {
+  background-color: #1C422B;
+  color: #FCF0F2;
+  border: 2px white solid;
+}
+
+.azure {
+  background-color: #E9F7F9;
+  border: 2px white solid;
+}
+
+/* Font Section */
+
+.section_container_font {
+  background-color: #1C422B;
+  border: 2px #E9F7F9 solid;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.font_container {
+  color: #FCF0F2;
+  display: block;
+  margin: 40px 20px;
+  padding: 20px;
+}
+
+.font_box {
+  display: inline-block;
+  width: 35%;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.roboto_mono {
+  font-family: "Roboto";
+}
+
+.roboto_cond {
+  font-family: "Roboto Condensed";
+}
+
+.noto_sans {
+  font-family: "Noto Sans";
+}
+
+.work_sans {
+  font-family: "Work Sans";
+}
+
+.bitter {
+  font-family: "Bitter";
+}
+
+/* Text Styles Section */
+
+.text_container {
+  color: #FCF0F2;
+}
+
+.text_container h2 {
+  margin-left: 20px;
+}
+
+.text_container p {
+  margin-left: 20px;
+}
